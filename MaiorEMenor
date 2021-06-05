@@ -1,0 +1,45 @@
+programa
+/* Portugol - Comparar 3 números
+ * mostrar o maior e
+ * mostrar o menor
+ */
+
+{
+funcao inicio()
+{
+//Variáveis
+inteiro num1, num2, num3, maior, menor
+//Cálculo e Exibição
+escreva("Digite o 1º número: ")
+leia(num1)
+escreva("Digite o 2º número: ")
+leia(num2)
+escreva("Digite o 3º número: ")
+leia(num3)
+
+maior = num1
+menor = num1
+
+se (menor>num2)
+menor = num2
+se (menor>num3)
+menor = num3
+se (maior < num2)
+maior = num2
+se (maior < num3)
+maior = num3
+
+escreva("\nMaior = ", maior, " e menor = ", menor, "\n")
+}
+}
+/
+
+*-------------------------------------------------------------------------
+Digite o 1º número: 5
+Digite o 2º número: 3
+Digite o 3º número: 1
+
+Maior = 5 e menor = 1
+
+Programa finalizado. Tempo de execução: 5828 milissegundos
+__________________________________________________________________________*/ 
